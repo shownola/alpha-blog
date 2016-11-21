@@ -2,7 +2,7 @@ html, body,.cover {
     height: 100%;
 }
 .cover {
-    background: url('images/books.jpg') top left no-repeat; 
+    background: url('books.jpg') top left no-repeat; 
     background-size: cover;
     display: table;
     width: 100%;
