@@ -1,2 +1,41 @@
+$navbar-default-bg: #A59DAB;
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size:1.7em;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.cover {
+    background: url('books.jpg') top left no-repeat; 
+    background-size: cover;
+    display: table;
+    width: 100%;
+    padding: 0;
+    box-shadow: inset 0 0 100px #000;
+}
+
+html, body,.cover {
+    height: 100%;
+}
+.navbar-default {
+  margin-bottom: 0;
+}
+.cover, text {
+  text-align: center;
+  color: #888;
+  padding-top: 30px;
+}
+.btn, .btn-default {
+  background: #9faaa1;
+}
